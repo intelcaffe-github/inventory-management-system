@@ -11,8 +11,8 @@ git remote set-url origin git@github.com:$PATH_REPO
 git add .
 
 currentDate=`date +"%Y-%m-%d %T"`
-git commit -m  currentDate
-git pull origin gh-pages
-git push origin gh-pages
+git commit -m  "First Commit"
+git pull origin main
+git push origin main
 
 exit 1
